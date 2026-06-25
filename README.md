@@ -7,11 +7,11 @@ The open-source code of the paper "EDHA-MT: An Event-Driven Highly Accurate SNN 
 
 Usage:
 
-SNNMachineRun1 snn1 = new SNNMachineRun1(...);
+SNNMachineRun1 snn1 = new SNNMachineRun1(...);\
 SNNMachineRun2 snn2 = new SNNMachineRun2(...);
 
-snn1.start();
+snn1.start();\
 snn2.start();
 
-snn1.join();
+snn1.join();\
 snn2.join();
